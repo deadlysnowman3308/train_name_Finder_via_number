@@ -3,7 +3,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-
 import requests as r
 import os, sys, json, time
 from os import system
@@ -109,7 +108,6 @@ try:
 except KeyError:
     print("    Sorry, " + os.getlogin() + " try again")
 print("\n\n\n\n\n\n\n\n")
-
 input("\t[ Press ENTER for exit ]")
 os.system("cls" if os.name == "nt" else "clear")
 
