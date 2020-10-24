@@ -9,10 +9,7 @@ import os, sys, json, time
 from os import system
 from sys import exit
 
-
 os.system("cls" if os.name == "nt" else "clear")
-
-
 def load_animation():
 
     load_str = "starting train database console..."
@@ -47,19 +44,13 @@ def load_animation():
     else:
         os.system("clear")
 
-
 if __name__ == "__main__":
     load_animation()
 os.system("cls" if os.name == "nt" else "clear")
-
 a = r.get(
     "https://rawcdn.githack.com/deadlysnowman3308/train_name_Finder_via_number/6a26cbe905b92f9d1f2d2f725d1d5abd9bc5a17f/Train_names.json"
 )
-
 b = a.json()
-
-
-
 class banner2:
     def __init__(self):
         pass
@@ -74,22 +65,12 @@ class banner2:
                                                  
             """
         )
-
-
 banner2()
-
-
 print("\n\n\n")
-
 xy = str(input("\t$ Please enter TRAIN number: ") or "12312")
-
 os.system("cls" if os.name == "nt" else "clear")
-
 print("\n\n")
-
 banner2()
-
-
 def process_bar():
     pass
     system(
@@ -120,11 +101,7 @@ def process_bar():
         sys.stdout.write("\r\t\t\t\t" + animation[i % len(animation)])
         sys.stdout.flush()
     print("\n")
-
-
 process_bar()
-
-
 os.system("cls" if os.name == "nt" else "clear")
 print("\n\n\n")
 try:
@@ -136,4 +113,4 @@ print("\n\n\n\n\n\n\n\n")
 input("\t[ Press ENTER for exit ]")
 os.system("cls" if os.name == "nt" else "clear")
 
-# input("Please Press ENTER for exit")jkjhj
+# Made by HackingVila (Aniket)
