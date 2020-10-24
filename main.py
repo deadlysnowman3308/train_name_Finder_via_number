@@ -47,7 +47,7 @@ if __name__ == "__main__":
     load_animation()
 os.system("cls" if os.name == "nt" else "clear")
 a = r.get(
-    "https://rawcdn.githack.com/deadlysnowman3308/train_name_Finder_via_number/6a26cbe905b92f9d1f2d2f725d1d5abd9bc5a17f/Train_names.json"
+    "https://rawcdn.githack.com/hackingvila/train_database/40a34375fcae2e49236fc434e2a22fe0422ae939/Train_names.json"
 )
 b = a.json()
 class banner2:
