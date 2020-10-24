@@ -7,6 +7,7 @@ import requests as r
 import os, sys, json, time
 from os import system
 from sys import exit
+import zlib, base64
 
 os.system("cls" if os.name == "nt" else "clear")
 def load_animation():
