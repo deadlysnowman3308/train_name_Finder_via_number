@@ -1,4 +1,4 @@
-run="python main.py"
+run="pip3 install -r requirements.txt && python3 main.py"
 language="python3"
 onBoot="echo Welcome to HackingVila!"
 
