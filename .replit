@@ -1,0 +1,8 @@
+run="python main.py"
+language="python3"
+onBoot="echo Welcome to HackingVila!"
+
+[packager]
+afterInstall="date >> package_install_log"
+ignoredPaths=[".git"]
+ignoredPackages=["twitter", "discord"]
